@@ -1,4 +1,5 @@
 #nav{
+  position: fixed;
   width: 15%;
   max-width: 15%;
   background-color: #ccc;
@@ -14,8 +15,10 @@ body{
   box-sizing: border-box;
 }
 #main-doc{
+  
   width: 85%;
   min-height: 100vh;
+
 
 }
 
@@ -47,4 +50,10 @@ li {
   padding: 10px 5px;
   text-align: left;
   border-top: 1px solid #000;
+}
+
+.margin{
+   margin: 5%;
+
+
 }
