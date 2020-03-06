@@ -2,7 +2,16 @@
   width: 15%;
   max-width: 15%;
   background-color: #ccc;
-  min-height: 100vh;
+  height: 100vh;
+  border-right: 3px solid #777;
+  min-width: 290px;
+  line-height: 1.5;
+  overflow-y: scroll;
+  font-size: 1.1em;
+}
+body{
+  margin: 0;
+  box-sizing: border-box;
 }
 #main-doc{
   width: 85%;
@@ -15,4 +24,27 @@
   min-height: 100vh;
   display: flex;
 
+}
+.header{
+  color: #000;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.7em;
+}
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 30px;
+  color: #4d4e53;
+  cursor: pointer;
+}
+ul{
+  padding-inline-start: 0px;
+}
+li {
+  list-style-type: none;
+  padding: 10px 5px;
+  text-align: left;
+  border-top: 1px solid #000;
 }
