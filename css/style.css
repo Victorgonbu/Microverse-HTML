@@ -3,22 +3,26 @@
   width: 15%;
   max-width: 15%;
   background-color: #ccc;
-  height: 100vh;
+  height: 100%;
   border-right: 3px solid #777;
   min-width: 290px;
   line-height: 1.5;
   overflow-y: scroll;
   font-size: 1.1em;
+  min-height: 100%;
+  overflow-x: hidden;
+  position: fixed;
+  min-width: 15%;
 }
+
 body{
   margin: 0;
   box-sizing: border-box;
 }
 #main-doc{
-  
-  width: 85%;
-  min-height: 100vh;
-
+  width: 85%
+  height: 100%;
+  margin-left: 18%;
 
 }
 
@@ -26,7 +30,7 @@ body{
   width: 100%;
   min-height: 100vh;
   display: flex;
-
+  height: 100%;
 }
 .header{
   color: #000;
@@ -42,8 +46,9 @@ body{
   color: #4d4e53;
   cursor: pointer;
 }
-ul{
+#nav ul{
   padding-inline-start: 0px;
+  height: 88%;
 }
 li {
   list-style-type: none;
@@ -52,8 +57,19 @@ li {
   border-top: 1px solid #000;
 }
 
-.margin{
-   margin: 5%;
 
+code {
+  background: #ccc;
+  padding: 15px;
+  text-align: left;
+  word-wrap: normal;
+  margin: 10px;
+  border-radius: 5px;
+  display: block;
+  word-wrap: normal;
+  position: relative;
+  white-space: pre;
+  line-height: 2;
+  font-family: monospace;
 
 }
