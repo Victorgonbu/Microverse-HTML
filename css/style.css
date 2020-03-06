@@ -5,14 +5,13 @@
   background-color: #ccc;
   height: 100%;
   border-right: 3px solid #777;
-  min-width: 290px;
+  min-width: 250px;
   line-height: 1.5;
   overflow-y: scroll;
   font-size: 1.1em;
   min-height: 100%;
   overflow-x: hidden;
   position: fixed;
-  min-width: 15%;
 }
 
 body{
@@ -22,7 +21,7 @@ body{
 #main-doc{
   width: 85%
   height: 100%;
-  margin-left: 18%;
+  margin-left: 20%;
 
 }
 
