@@ -1,0 +1,18 @@
+#nav{
+  width: 15%;
+  max-width: 15%;
+  background-color: #ccc;
+  min-height: 100vh;
+}
+#main-doc{
+  width: 85%;
+  min-height: 100vh;
+
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+
+}
