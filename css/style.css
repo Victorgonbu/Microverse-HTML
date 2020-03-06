@@ -1,4 +1,5 @@
 #nav{
+  position: fixed;
   width: 15%;
   max-width: 15%;
   background-color: #ccc;
@@ -18,10 +19,10 @@ body{
   box-sizing: border-box;
 }
 #main-doc{
-  width: 85%;
-  min-height: 100vh;
+  width: 85%
   height: 100%;
   margin-left: 18%;
+
 }
 
 .container{
@@ -55,6 +56,7 @@ li {
   border-top: 1px solid #000;
 }
 
+
 code {
   background: #ccc;
   padding: 15px;
@@ -68,4 +70,5 @@ code {
   white-space: pre;
   line-height: 2;
   font-family: monospace;
+
 }
